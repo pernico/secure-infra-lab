@@ -5,7 +5,7 @@ variable "aws_region" {
 }
 
 variable "bucket_name" {
-  description = "CloudFront Origin within Pejo Realm"
+  description = "CloudFront The Origin within Pejo Realm"
   type        = string
   default     = "pejo-first-test"
 }
