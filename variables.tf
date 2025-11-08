@@ -4,8 +4,8 @@ variable "aws_region" {
   default     = "ca-central-1"
 }
 
-#variable "bucket_name" {
-#  description = "CloudFront The Origin within Pejo Realm"
-#  type        = string
-#  default     = "pejo-first-test"
-#}
+variable "bucket_name" {
+  description = "CloudFront The Origin within Pejo Realm"
+  type        = string
+  default     = "pejo-first-test"
+}
